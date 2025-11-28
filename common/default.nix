@@ -10,4 +10,5 @@ pkgs: with pkgs; [
   direnv
   bat
   hcloud 
+  chezmoi
 ]
