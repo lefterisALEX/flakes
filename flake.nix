@@ -10,7 +10,7 @@
           kube-tools = import ./kube-tools.nix pkgs;
           common = import ./common.nix pkgs;
         in {
-          tools = pkgs.symlinkJoin {
+          kube-tools = pkgs.symlinkJoin {
             name = "kube-tools";
             paths = kube-tools;
           };
