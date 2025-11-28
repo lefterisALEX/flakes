@@ -7,8 +7,8 @@
       forSystem = system: 
         let 
           pkgs = import nixpkgs { inherit system; };
-          kube-tools = import ./kube-tools.nix pkgs;
-          common = import ./common.nix pkgs;
+          kube-tools = import ./kube-tools/default.nix pkgs;
+          common = import ./common/default.nix pkgs;
         in {
           kube-tools = pkgs.symlinkJoin {
             name = "kube-tools";
