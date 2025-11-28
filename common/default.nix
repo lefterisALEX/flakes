@@ -1,13 +1,30 @@
 pkgs: with pkgs; [
-  just
-  fish
-  zoxide
-  eza
-  fzf
-  neovim
-  starship
-  direnv
-  bat
-  hcloud 
-  chezmoi
+	just
+	fish
+	zoxide
+	eza
+	fzf
+	neovim
+	starship
+	direnv
+	bat
+	hcloud 
+	chezmoi
+	wget 
+	tmux
+	btop
+	htop
+	lazygit
+	# drawio
+	ripgrep
+	fx
+	jq
+	fd
+	unzip
+	sslscan
+	jless
+	gh
+	viddy
+	go 
+	age
 ]

@@ -3,7 +3,7 @@ default:
     @just --list
 
 install-common:
-    nix profile add .#common
+    NIXPKGS_ALLOW_UNFREE=1 nix profile add .#common
 
 install-kube-tools:
     nix profile add .#kube-tools
