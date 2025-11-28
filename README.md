@@ -1,3 +1,9 @@
+## setup
+```
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install --determinate
+nix-shell -p just
+just 
+```
 ## commands
 
 ```

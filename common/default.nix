@@ -1,4 +1,3 @@
-# common.nix
 pkgs: with pkgs; [
   just
   fish
