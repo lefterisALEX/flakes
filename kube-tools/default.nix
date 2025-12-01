@@ -11,4 +11,5 @@ pkgs: with pkgs; [
 	unixtools.watch
 	ginkgo
 	tflint
+	kubie
 ]
