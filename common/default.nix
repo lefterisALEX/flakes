@@ -27,4 +27,5 @@ pkgs: with pkgs; [
 	viddy
 	go 
 	age
+	uv
 ]
